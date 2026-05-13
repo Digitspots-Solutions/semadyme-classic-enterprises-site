@@ -1,0 +1,49 @@
+{
+  "businessName": "Semadyme Classic Enterprises",
+  "industry": "Manufacturing",
+  "tone": "professional",
+  "tagline": "Excellence in Manufacturing, Delivered with Precision",
+  "sections": [
+    {
+      "id": "hero",
+      "name": "Hero",
+      "copy": "Welcome to Semadyme Classic Enterprises - Your Trusted Manufacturing Partner in Lagos. We deliver quality manufacturing solutions tailored to meet your business needs across Nigeria.",
+      "imagePrompt": "Modern Nigerian manufacturing facility exterior with clean industrial architecture, blue sky, professional workers in safety gear visible through large windows, Lagos cityscape in background, bright natural lighting, photorealistic, high quality",
+      "layout": "centered"
+    },
+    {
+      "id": "about",
+      "name": "About Us",
+      "copy": "Semadyme Classic Enterprises is a leading manufacturing company based in Kosofe, Lagos, Nigeria. Operating from our facility at 23 Oyesiku Street, Alapere Ketu, we specialize in delivering top-tier manufacturing solutions that meet international standards while serving the unique needs of Nigerian businesses. Our commitment to quality, reliability, and customer satisfaction has positioned us as a trusted partner for businesses across various sectors. With state-of-the-art equipment and a dedicated team of professionals, we transform raw materials into finished products that exceed expectations.",
+      "imagePrompt": "Interior of modern Nigerian manufacturing plant with organized production lines, quality control stations, Nigerian engineers and workers collaborating, clean industrial environment with natural light, professional photography, documentary style",
+      "layout": "split"
+    },
+    {
+      "id": "services",
+      "name": "Our Services",
+      "copy": "At Semadyme Classic Enterprises, we offer comprehensive manufacturing services designed to support your business growth:\n\n• Custom Manufacturing Solutions - Tailored production processes to meet your specific requirements\n• Quality Control & Assurance - Rigorous testing and inspection protocols ensuring product excellence\n• Product Development - From concept to finished product with expert guidance\n• Supply Chain Management - Efficient sourcing and logistics coordination\n• Consultation Services - Expert advice on manufacturing processes and optimization\n\nWe work with businesses of all sizes, from startups to established enterprises, delivering reliable manufacturing solutions that drive success.",
+      "imagePrompt": "Collage-style image showing diverse manufacturing processes in Nigerian factory: precision machinery in operation, quality inspection with digital tools, packaging line, warehouse with organized inventory, warm industrial lighting, professional documentation photography",
+      "layout": "grid"
+    },
+    {
+      "id": "why-choose-us",
+      "name": "Why Choose Us",
+      "copy": "Semadyme Classic Enterprises stands out in the Nigerian manufacturing landscape through our unwavering commitment to excellence. Our facility in Alapere Ketu is equipped with modern machinery and operated by skilled professionals who understand both local and international quality standards. We pride ourselves on timely delivery, competitive pricing, and exceptional customer service. Our location in Lagos provides strategic access to major distribution channels, ensuring your products reach their destination efficiently. When you partner with us, you're choosing a manufacturing partner dedicated to your success.",
+      "imagePrompt": "Professional handshake between Nigerian business executives in modern manufacturing facility office, certificates and quality awards visible on wall, confident expressions, bright office lighting, corporate photography style",
+      "layout": "centered"
+    },
+    {
+      "id": "contact",
+      "name": "Contact Us",
+      "copy": "Ready to discuss your manufacturing needs? We're here to help.\n\nVisit our facility at 23 Oyesiku Street, Alapere Ketu, Kosofe, Lagos, or reach out to us today. Our team is ready to provide you with detailed information about our services and how we can support your business objectives.\n\nLet's build something great together.",
+      "imagePrompt": "Modern Nigerian office reception area with company branding, comfortable seating area, professional receptionist, Lagos city visible through windows, welcoming atmosphere, natural lighting, architectural photography",
+      "layout": "default"
+    }
+  ],
+  "contact": {
+    "phone": "+234 806 364 2238",
+    "email": "info@semadymeclassic.com",
+    "address": "23 Oyesiku Street, Alapere Ketu, Kosofe, Lagos, Nigeria",
+    "whatsapp": "https://wa.me/2348063642238"
+  }
+}

@@ -3,27 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Semadyme Classic Enterprises - Excellence in Manufacturing</title>
+    <title>Crystal Grace Pipeline Services Co - Engineering Excellence in Pipeline Infrastructure</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
     <style>
-        :root {
-            --color-primary: #161616;
-            --color-accent: #ab5f1e;
-            --color-bg: #F2EDE8;
-            --color-text: #1C1C1C;
-            --color-surface: #282520;
-            --color-secondary-accent: #828280;
-            --font-display: 'Barlow Condensed', sans-serif;
-            --font-body: 'Lato', sans-serif;
-            --border-radius: 0px;
-        }
-
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+        }
+
+        :root {
+            --color-primary: #0f203a;
+            --color-accent: #ea791c;
+            --color-bg: #F8F4EE;
+            --color-text: #0C1E30;
+            --color-surface: #111d36;
+            --color-secondary-accent: #6baebc;
+            --font-display: 'DM Serif Display', serif;
+            --font-body: 'Plus Jakarta Sans', sans-serif;
+            --border-radius: 4px;
         }
 
         html {
@@ -35,13 +35,6 @@
             color: var(--color-text);
             background-color: var(--color-bg);
             line-height: 1.6;
-        }
-
-        h1, h2, h3, h4, h5, h6 {
-            font-family: var(--font-display);
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 1px;
         }
 
         @keyframes fadeUp {
@@ -58,15 +51,15 @@
         nav {
             position: sticky;
             top: 0;
-            background: rgba(242, 237, 232, 0.95);
+            background: rgba(15, 32, 58, 0.95);
             backdrop-filter: blur(10px);
             z-index: 1000;
-            padding: 1.25rem 5%;
+            padding: 1rem 5%;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
 
-        nav .container {
-            max-width: 1400px;
+        nav .nav-container {
+            max-width: 1200px;
             margin: 0 auto;
             display: flex;
             justify-content: space-between;
@@ -75,30 +68,25 @@
 
         nav .logo {
             font-family: var(--font-display);
-            font-size: 1.5rem;
-            font-weight: 700;
-            color: var(--color-primary);
-            text-transform: uppercase;
-            letter-spacing: 2px;
+            font-size: 1.4rem;
+            color: white;
+            font-weight: bold;
         }
 
-        .nav-links {
+        nav .nav-links {
             display: flex;
+            gap: 2rem;
             list-style: none;
-            gap: 2.5rem;
         }
 
-        .nav-links a {
+        nav .nav-links a {
+            color: white;
             text-decoration: none;
-            color: var(--color-text);
             font-weight: 500;
-            text-transform: uppercase;
-            font-size: 0.9rem;
-            letter-spacing: 0.5px;
             transition: color 0.3s ease;
         }
 
-        .nav-links a:hover {
+        nav .nav-links a:hover {
             color: var(--color-accent);
         }
 
@@ -112,7 +100,7 @@
         .mobile-menu-btn span {
             width: 25px;
             height: 3px;
-            background: var(--color-text);
+            background: white;
             transition: all 0.3s ease;
             transform-origin: center;
         }
@@ -135,7 +123,7 @@
             right: -100%;
             width: 300px;
             height: calc(100vh - 70px);
-            background: var(--color-bg);
+            background: var(--color-primary);
             box-shadow: -2px 0 10px rgba(0,0,0,0.1);
             transition: right 0.3s ease;
             z-index: 999;
@@ -156,14 +144,12 @@
 
         .mobile-menu ul a {
             text-decoration: none;
-            color: var(--color-text);
+            color: white;
             font-size: 1.1rem;
             font-weight: 500;
             transition: color 0.3s ease;
             display: block;
             padding: 0.5rem 0;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
         }
 
         .mobile-menu ul a:hover {
@@ -172,40 +158,81 @@
 
         section {
             padding: 80px 5%;
+            animation: fadeUp 0.6s ease forwards;
+        }
+
+        section:nth-child(2) {
+            animation-delay: 0s;
+        }
+
+        section:nth-child(3) {
+            animation-delay: 0.1s;
+        }
+
+        section:nth-child(4) {
+            animation-delay: 0.2s;
+        }
+
+        section:nth-child(5) {
+            animation-delay: 0.3s;
+        }
+
+        section:nth-child(6) {
+            animation-delay: 0.4s;
+        }
+
+        section:nth-child(7) {
+            animation-delay: 0.5s;
         }
 
         .container {
-            max-width: 1400px;
+            max-width: 1200px;
             margin: 0 auto;
         }
 
-        #hero {
+        h1, h2, h3 {
+            font-family: var(--font-display);
+            color: var(--color-primary);
+            line-height: 1.2;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero {
             position: relative;
-            min-height: 100vh;
+            height: 100vh;
             display: flex;
             align-items: center;
             justify-content: center;
             text-align: center;
             color: white;
-            padding: 120px 5% 80px;
-            animation: fadeUp 0.6s ease forwards;
+            overflow: hidden;
         }
 
-        #hero::before {
-            content: '';
+        .hero-bg {
             position: absolute;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            background-image: url('https://images.pexels.com/photos/3089681/pexels-photo-3089681.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-            background-size: cover;
-            background-position: center;
+            object-fit: cover;
             z-index: -2;
         }
 
-        #hero::after {
-            content: '';
+        .hero-overlay {
             position: absolute;
             top: 0;
             left: 0;
@@ -216,56 +243,48 @@
         }
 
         .hero-content {
+            z-index: 1;
             max-width: 900px;
+            padding: 0 2rem;
         }
 
-        .hero-content h1 {
-            font-size: 4rem;
+        .hero h1 {
+            color: white;
+            font-size: 3.5rem;
             margin-bottom: 1.5rem;
-            line-height: 1.1;
-            text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
         }
 
-        .hero-content .tagline {
+        .hero .tagline {
             font-size: 1.5rem;
             margin-bottom: 1rem;
             color: var(--color-accent);
-            font-family: var(--font-display);
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 2px;
         }
 
-        .hero-content p {
-            font-size: 1.2rem;
-            margin-bottom: 2.5rem;
+        .hero p {
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
             line-height: 1.8;
-            font-weight: 300;
         }
 
         .cta-button {
             display: inline-block;
-            padding: 1rem 3rem;
+            padding: 1rem 2.5rem;
             background: var(--color-accent);
             color: white;
             text-decoration: none;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 1px;
+            font-weight: 600;
+            border-radius: var(--border-radius);
             transition: all 0.3s ease;
-            border: 3px solid var(--color-accent);
-            font-family: var(--font-display);
             font-size: 1.1rem;
         }
 
         .cta-button:hover {
-            background: transparent;
-            color: var(--color-accent);
+            background: #d16a15;
+            transform: translateY(-2px);
         }
 
-        #about {
-            animation: fadeUp 0.6s ease forwards;
-            animation-delay: 0.1s;
+        .about {
+            background: white;
         }
 
         .about-content {
@@ -279,173 +298,177 @@
             width: 100%;
             height: 500px;
             object-fit: cover;
-            box-shadow: 12px 12px 0 var(--color-accent);
+            border-radius: var(--border-radius);
         }
 
-        .about-text h2 {
-            font-size: 3rem;
-            margin-bottom: 1.5rem;
-            color: var(--color-primary);
+        .about-text ul {
+            list-style: none;
+            margin-top: 1.5rem;
         }
 
-        .about-text p {
-            font-size: 1.1rem;
-            line-height: 1.8;
-            color: var(--color-text);
+        .about-text ul li {
+            margin-bottom: 1rem;
+            padding-left: 1.5rem;
+            position: relative;
         }
 
-        #services {
-            background: var(--color-surface);
-            color: var(--color-bg);
-            animation: fadeUp 0.6s ease forwards;
-            animation-delay: 0.2s;
+        .about-text ul li:before {
+            content: "•";
+            color: var(--color-accent);
+            font-size: 1.5rem;
+            position: absolute;
+            left: 0;
         }
 
-        #services h2 {
-            font-size: 3rem;
-            margin-bottom: 3rem;
+        .services {
+            background: var(--color-bg);
+        }
+
+        .services h2 {
             text-align: center;
-            color: var(--color-bg);
+            margin-bottom: 3rem;
         }
 
         .services-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 2rem;
-            margin-top: 2rem;
         }
 
         .service-card {
-            background: rgba(242, 237, 232, 0.05);
+            background: white;
             padding: 2rem;
-            border-left: 4px solid var(--color-accent);
+            border-radius: var(--border-radius);
             transition: transform 0.3s ease;
         }
 
         .service-card:hover {
-            transform: translateX(10px);
+            transform: translateY(-5px);
         }
 
         .service-card h3 {
-            font-size: 1.5rem;
+            color: var(--color-accent);
             margin-bottom: 1rem;
-            color: var(--color-accent);
         }
 
-        .service-card p {
-            line-height: 1.8;
-        }
-
-        #why-choose-us {
-            animation: fadeUp 0.6s ease forwards;
-            animation-delay: 0.3s;
-        }
-
-        .why-content {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 4rem;
-            align-items: center;
-        }
-
-        .why-image {
-            width: 100%;
-            height: 500px;
-            object-fit: cover;
-            box-shadow: -12px 12px 0 var(--color-accent);
-        }
-
-        .why-text h2 {
-            font-size: 3rem;
-            margin-bottom: 1.5rem;
-            color: var(--color-primary);
-        }
-
-        .why-text p {
-            font-size: 1.1rem;
-            line-height: 1.8;
-        }
-
-        .features-list {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 1.5rem;
-            margin-top: 2rem;
-        }
-
-        .feature-item {
-            display: flex;
-            align-items: center;
-            gap: 1rem;
-        }
-
-        .feature-item::before {
-            content: '■';
-            color: var(--color-accent);
-            font-size: 1.5rem;
-        }
-
-        #contact {
-            background: var(--color-surface);
-            color: var(--color-bg);
-            animation: fadeUp 0.6s ease forwards;
-            animation-delay: 0.4s;
-        }
-
-        #contact h2 {
-            font-size: 3rem;
-            margin-bottom: 2rem;
+        .team {
+            background: white;
             text-align: center;
-            color: var(--color-bg);
+        }
+
+        .team h2 {
+            margin-bottom: 2rem;
+        }
+
+        .team-content {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .team-content ul {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            list-style: none;
+            margin-top: 2rem;
+            text-align: left;
+        }
+
+        .team-content ul li {
+            padding: 1rem;
+            background: var(--color-bg);
+            border-radius: var(--border-radius);
+            border-left: 4px solid var(--color-accent);
+        }
+
+        .contact {
+            background: var(--color-primary);
+            color: white;
+        }
+
+        .contact h2 {
+            color: white;
         }
 
         .contact-content {
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 4rem;
-            align-items: center;
-            max-width: 1200px;
-            margin: 0 auto;
+            align-items: start;
         }
 
-        .contact-info p {
-            font-size: 1.1rem;
-            line-height: 1.8;
-            margin-bottom: 2rem;
+        .contact-info {
+            line-height: 2;
         }
 
-        .contact-details {
-            margin-top: 2rem;
-        }
-
-        .contact-item {
-            margin-bottom: 1.5rem;
-            padding: 1rem;
-            background: rgba(242, 237, 232, 0.05);
-            border-left: 4px solid var(--color-accent);
-        }
-
-        .contact-item h3 {
-            font-size: 1rem;
+        .contact-info a {
             color: var(--color-accent);
-            margin-bottom: 0.5rem;
-        }
-
-        .contact-item a {
-            color: var(--color-bg);
             text-decoration: none;
-            transition: color 0.3s ease;
         }
 
-        .contact-item a:hover {
-            color: var(--color-accent);
+        .contact-info a:hover {
+            text-decoration: underline;
         }
 
         .contact-image {
             width: 100%;
-            height: 500px;
+            height: 400px;
             object-fit: cover;
-            box-shadow: 12px 12px 0 var(--color-accent);
+            border-radius: var(--border-radius);
+        }
+
+        .whatsapp-button {
+            display: inline-block;
+            margin-top: 1.5rem;
+            padding: 1rem 2rem;
+            background: #25D366;
+            color: white;
+            text-decoration: none;
+            border-radius: var(--border-radius);
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .whatsapp-button:hover {
+            background: #20BA5A;
+            transform: translateY(-2px);
+        }
+
+        .faq {
+            background: white;
+        }
+
+        .faq h2 {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .faq-item {
+            margin-bottom: 2rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .faq-item:last-child {
+            border-bottom: none;
+        }
+
+        .faq-question {
+            font-weight: 600;
+            font-size: 1.2rem;
+            color: var(--color-primary);
+            margin-bottom: 0.5rem;
+        }
+
+        .faq-answer {
+            color: var(--color-text);
+        }
+
+        footer {
+            background: var(--color-surface);
+            color: white;
+            text-align: center;
+            padding: 2rem 5%;
         }
 
         .whatsapp-float {
@@ -463,23 +486,26 @@
             font-size: 2rem;
             text-decoration: none;
             box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-            transition: transform 0.3s ease;
             z-index: 999;
+            transition: transform 0.3s ease;
         }
 
         .whatsapp-float:hover {
             transform: scale(1.1);
         }
 
-        footer {
-            background: var(--color-primary);
-            color: var(--color-bg);
-            text-align: center;
-            padding: 2rem 5%;
-        }
+        @media (max-width: 1024px) {
+            section {
+                padding: 60px 5%;
+            }
 
-        footer p {
-            font-size: 0.9rem;
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            h2 {
+                font-size: 2rem;
+            }
         }
 
         @media (max-width: 768px) {
@@ -495,43 +521,38 @@
                 padding: 48px 5%;
             }
 
-            .hero-content h1 {
-                font-size: 2.5rem;
+            .hero h1 {
+                font-size: 2.2rem;
             }
 
-            .hero-content .tagline {
-                font-size: 1.1rem;
+            .hero .tagline {
+                font-size: 1.2rem;
             }
 
-            .hero-content p {
+            .hero p {
                 font-size: 1rem;
             }
 
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.8rem;
+            }
+
             .about-content,
-            .why-content,
             .contact-content {
                 grid-template-columns: 1fr;
                 gap: 2rem;
             }
 
             .about-image,
-            .why-image,
             .contact-image {
                 height: 300px;
             }
 
-            .about-text h2,
-            .why-text h2,
-            #contact h2,
-            #services h2 {
-                font-size: 2rem;
-            }
-
             .services-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .features-list {
                 grid-template-columns: 1fr;
             }
 
@@ -543,33 +564,19 @@
                 right: 20px;
             }
         }
-
-        @media (max-width: 480px) {
-            .hero-content h1 {
-                font-size: 2rem;
-            }
-
-            nav .logo {
-                font-size: 1.2rem;
-            }
-
-            .cta-button {
-                padding: 0.8rem 2rem;
-                font-size: 1rem;
-            }
-        }
     </style>
 </head>
 <body>
     <nav>
-        <div class="container">
-            <div class="logo">SEMADYME CLASSIC</div>
+        <div class="nav-container">
+            <div class="logo">Crystal Grace</div>
             <ul class="nav-links">
                 <li><a href="#hero">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#services">Services</a></li>
-                <li><a href="#why-choose-us">Why Us</a></li>
+                <li><a href="#team">Expertise</a></li>
                 <li><a href="#contact">Contact</a></li>
+                <li><a href="#faq">FAQ</a></li>
             </ul>
             <div class="mobile-menu-btn">
                 <span></span>
@@ -584,126 +591,187 @@
             <li><a href="#hero">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
-            <li><a href="#why-choose-us">Why Us</a></li>
+            <li><a href="#team">Expertise</a></li>
             <li><a href="#contact">Contact</a></li>
+            <li><a href="#faq">FAQ</a></li>
         </ul>
     </div>
 
-    <section id="hero">
+    <section id="hero" class="hero">
+        <img src="https://images.pexels.com/photos/18597927/pexels-photo-18597927.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Pipeline Infrastructure" class="hero-bg">
+        <div class="hero-overlay"></div>
         <div class="hero-content">
-            <h1>Semadyme Classic Enterprises</h1>
-            <p class="tagline">Excellence in Manufacturing, Delivered with Precision</p>
-            <p>Welcome to Semadyme Classic Enterprises - Your Trusted Manufacturing Partner in Lagos. We deliver quality manufacturing solutions tailored to meet your business needs across Nigeria.</p>
-            <a href="#contact" class="cta-button">Get In Touch</a>
+            <h1>Crystal Grace Pipeline Services Co</h1>
+            <p class="tagline">Your Trusted Partner in Midstream Engineering Excellence</p>
+            <p>Specialising in comprehensive pipeline services, LNG project management, and midstream engineering solutions across Nigeria. We deliver safety, reliability, and innovation in every project.</p>
+            <a href="#contact" class="cta-button">Get a Quote Today</a>
         </div>
     </section>
 
-    <section id="about">
+    <section id="about" class="about">
         <div class="container">
             <div class="about-content">
-                <img src="https://images.pexels.com/photos/34718930/pexels-photo-34718930.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Semadyme Classic Enterprises Manufacturing" class="about-image">
+                <img src="https://images.pexels.com/photos/2391/dirty-industry-stack-factory.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Oil and Gas Engineering" class="about-image">
                 <div class="about-text">
-                    <h2>About Us</h2>
-                    <p>Semadyme Classic Enterprises is a leading manufacturing company based in Kosofe, Lagos, Nigeria. Operating from our facility at 23 Oyesiku Street, Alapere Ketu, we specialize in delivering top-tier manufacturing solutions that meet international standards while serving the unique needs of Nigerian businesses. Our commitment to quality, reliability, and customer satisfaction has positioned us as a trusted partner for businesses across various sectors. With state-of-the-art equipment and a dedicated team of professionals, we transform raw materials into finished products that exceed expectations.</p>
+                    <h2>About Crystal Grace Pipeline Services Co</h2>
+                    <p>Crystal Grace Pipeline Services Co (also known as Crystal Grace Midstream Engineering Limited) is a leading oil and gas engineering firm based in Lagos, Nigeria. With expertise in LNG project management and midstream engineering, we provide comprehensive pipeline services that meet international safety and quality standards.</p>
+                    <p>Our team of experienced engineers and project managers brings decades of combined expertise in designing, installing, maintaining, and managing pipeline infrastructure across Nigeria's oil and gas sector.</p>
+                    <p>We are committed to delivering projects on time, within budget, and to the highest standards of safety and environmental responsibility. Our client-focused approach ensures that every project receives the dedicated attention and technical excellence it deserves.</p>
+                    <h3>Our Core Values:</h3>
+                    <ul>
+                        <li><strong>Safety First</strong> - Uncompromising commitment to HSE standards</li>
+                        <li><strong>Technical Excellence</strong> - Leveraging best-in-class engineering practices</li>
+                        <li><strong>Integrity</strong> - Transparent, ethical business relationships</li>
+                        <li><strong>Innovation</strong> - Adopting cutting-edge pipeline technologies</li>
+                        <li><strong>Client Satisfaction</strong> - Delivering value beyond expectations</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="services">
+    <section id="services" class="services">
         <div class="container">
-            <h2>Our Services</h2>
-            <p style="text-align: center; font-size: 1.1rem; max-width: 800px; margin: 0 auto 3rem;">At Semadyme Classic Enterprises, we offer comprehensive manufacturing services designed to support your business growth:</p>
+            <h2>Comprehensive Pipeline & Midstream Solutions</h2>
             <div class="services-grid">
                 <div class="service-card">
-                    <h3>Custom Manufacturing Solutions</h3>
-                    <p>Tailored production processes to meet your specific requirements</p>
+                    <h3>LNG Project Management</h3>
+                    <p>End-to-end management of liquefied natural gas projects from feasibility studies through commissioning. Our experienced LNG project managers ensure seamless execution, regulatory compliance, and optimal performance.</p>
                 </div>
                 <div class="service-card">
-                    <h3>Quality Control & Assurance</h3>
-                    <p>Rigorous testing and inspection protocols ensuring product excellence</p>
+                    <h3>Pipeline Design & Engineering</h3>
+                    <p>Complete pipeline engineering services including route selection, hydraulic analysis, material specification, and detailed design documentation that meets Nigerian and international standards.</p>
                 </div>
                 <div class="service-card">
-                    <h3>Product Development</h3>
-                    <p>From concept to finished product with expert guidance</p>
+                    <h3>Pipeline Installation & Construction</h3>
+                    <p>Expert installation services for onshore and offshore pipelines, from trenching and welding to coating and commissioning, with full compliance to DPR and industry regulations.</p>
                 </div>
                 <div class="service-card">
-                    <h3>Supply Chain Management</h3>
-                    <p>Efficient sourcing and logistics coordination</p>
+                    <h3>Pipeline Integrity Management</h3>
+                    <p>Comprehensive integrity assessment programs including inspection, corrosion monitoring, risk assessment, and maintenance planning to extend pipeline life and ensure safe operations.</p>
                 </div>
                 <div class="service-card">
-                    <h3>Consultation Services</h3>
-                    <p>Expert advice on manufacturing processes and optimization</p>
+                    <h3>Midstream Engineering Solutions</h3>
+                    <p>Complete midstream infrastructure development including gas processing facilities, compression stations, metering systems, and flow assurance engineering.</p>
                 </div>
                 <div class="service-card">
-                    <h3>Enterprise Solutions</h3>
-                    <p>We work with businesses of all sizes, from startups to established enterprises, delivering reliable manufacturing solutions that drive success.</p>
+                    <h3>HSE Consulting & Compliance</h3>
+                    <p>Health, Safety, and Environmental consulting services ensuring your pipeline operations meet Nigerian Content Development requirements and international best practices.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Project Commissioning & Start-Up</h3>
+                    <p>Systematic commissioning procedures, performance testing, and operational readiness services to ensure safe and efficient pipeline system start-up.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="why-choose-us">
+    <section id="team" class="team">
         <div class="container">
-            <div class="why-content">
-                <div class="why-text">
-                    <h2>Why Choose Us</h2>
-                    <p>Semadyme Classic Enterprises stands out in the Nigerian manufacturing landscape through our unwavering commitment to excellence. Our facility in Alapere Ketu is equipped with modern machinery and operated by skilled professionals who understand both local and international quality standards. We pride ourselves on timely delivery, competitive pricing, and exceptional customer service. Our location in Lagos provides strategic access to major distribution channels, ensuring your products reach their destination efficiently. When you partner with us, you're choosing a manufacturing partner dedicated to your success.</p>
-                    <div class="features-list">
-                        <div class="feature-item">Modern Equipment</div>
-                        <div class="feature-item">Skilled Professionals</div>
-                        <div class="feature-item">Timely Delivery</div>
-                        <div class="feature-item">Competitive Pricing</div>
-                        <div class="feature-item">Quality Standards</div>
-                        <div class="feature-item">Strategic Location</div>
-                    </div>
-                </div>
-                <img src="https://images.pexels.com/photos/8134006/pexels-photo-8134006.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Manufacturing Excellence" class="why-image">
+            <h2>Led by Experienced LNG Project Managers</h2>
+            <div class="team-content">
+                <p>Our leadership brings extensive experience in managing complex LNG and pipeline projects across Nigeria's oil and gas sector. With proven track records in project delivery, regulatory navigation, and stakeholder management, we ensure your projects are in capable hands.</p>
+                <h3>Our team includes:</h3>
+                <ul>
+                    <li>Certified LNG Project Managers</li>
+                    <li>Pipeline Design Engineers</li>
+                    <li>Construction Supervisors</li>
+                    <li>HSE Specialists</li>
+                    <li>Quality Control Inspectors</li>
+                    <li>Welding Coordinators</li>
+                    <li>Integrity Assessment Engineers</li>
+                </ul>
+                <p style="margin-top: 2rem;">Every team member holds relevant professional certifications and undergoes continuous training to stay current with evolving industry standards and technologies.</p>
+                <p>We partner with leading international engineering firms and equipment suppliers to deliver world-class solutions tailored to Nigeria's unique operating environment.</p>
             </div>
         </div>
     </section>
 
-    <section id="contact">
+    <section id="contact" class="contact">
         <div class="container">
-            <h2>Contact Us</h2>
+            <h2>Get in Touch</h2>
             <div class="contact-content">
                 <div class="contact-info">
-                    <p>Ready to discuss your manufacturing needs? We're here to help.</p>
-                    <p>Visit our facility at 23 Oyesiku Street, Alapere Ketu, Kosofe, Lagos, or reach out to us today. Our team is ready to provide you with detailed information about our services and how we can support your business objectives.</p>
-                    <p>Let's build something great together.</p>
-                    <div class="contact-details">
-                        <div class="contact-item">
-                            <h3>Phone</h3>
-                            <a href="tel:+2348063642238">+234 806 364 2238</a>
-                        </div>
-                        <div class="contact-item">
-                            <h3>Email</h3>
-                            <a href="mailto:info@semadymeclassic.com">info@semadymeclassic.com</a>
-                        </div>
-                        <div class="contact-item">
-                            <h3>Address</h3>
-                            <p>23 Oyesiku Street, Alapere Ketu, Kosofe, Lagos, Nigeria</p>
-                        </div>
-                    </div>
+                    <p>Ready to discuss your pipeline or LNG project? Our team is available to provide consultation, project quotes, and technical support.</p>
+                    <h3 style="color: var(--color-accent); margin-top: 2rem;">Crystal Grace Pipeline Services Co</h3>
+                    <p style="font-style: italic;">(Crystal Grace Midstream Engineering Limited)</p>
+                    
+                    <h3 style="color: var(--color-accent); margin-top: 2rem;">Office Address:</h3>
+                    <p>23 Oyesiku Street<br>
+                    Alapere, Ketu<br>
+                    Kosofe, Lagos<br>
+                    Nigeria</p>
+                    
+                    <p style="margin-top: 1.5rem;">
+                        <strong>Phone:</strong> <a href="tel:+2348063642238">+234 806 364 2238</a><br>
+                        <strong>Email:</strong> <a href="mailto:info@crystalgrace.org">info@crystalgrace.org</a><br>
+                        <strong>Website:</strong> <a href="http://www.crystalgrace.org" target="_blank">www.crystalgrace.org</a>
+                    </p>
+                    
+                    <h3 style="color: var(--color-accent); margin-top: 2rem;">Business Hours:</h3>
+                    <p>Monday - Friday: 8:00 AM - 5:00 PM<br>
+                    Saturday: 9:00 AM - 2:00 PM<br>
+                    Sunday: Closed</p>
+                    
+                    <p style="margin-top: 1.5rem;">For urgent project enquiries, please contact us via WhatsApp for fastest response.</p>
+                    
+                    <a href="https://wa.me/2348063642238" class="whatsapp-button">Contact Us on WhatsApp</a>
                 </div>
-                <img src="https://images.pexels.com/photos/19893586/pexels-photo-19893586.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Contact Semadyme Classic" class="contact-image">
+                <img src="https://images.pexels.com/photos/35160405/pexels-photo-35160405.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Office Location" class="contact-image">
             </div>
         </div>
     </section>
 
-    <a href="https://wa.me/2348063642238" class="whatsapp-float" target="_blank" rel="noopener noreferrer">
-        <svg width="32" height="32" fill="currentColor" viewBox="0 0 24 24">
-            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
-        </svg>
-    </a>
+    <section id="faq" class="faq">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <div class="faq-question">What regions of Nigeria do you serve?</div>
+                <div class="faq-answer">We provide pipeline and midstream engineering services across Nigeria, with particular expertise in Lagos, Rivers, Delta, Bayelsa, and Akwa Ibom states. We can mobilise teams nationwide for projects of any scale.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Are you compliant with Nigerian Content Development requirements?</div>
+                <div class="faq-answer">Yes, Crystal Grace Pipeline Services Co is fully compliant with all Nigerian Content Development and Monitoring Board (NCDMB) requirements. We prioritise local content in our operations and maintain all necessary registrations and certifications.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">What standards do your pipeline services meet?</div>
+                <div class="faq-answer">Our engineering and construction services comply with international standards including API, ASME, ISO, and DPR regulations. We maintain strict quality control and HSE protocols on every project.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">How long does a typical pipeline project take?</div>
+                <div class="faq-answer">Project duration varies based on scope, terrain, pipeline diameter, and length. A typical small to medium onshore pipeline project ranges from 3-8 months. We provide detailed timelines during project planning.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Do you offer maintenance services for existing pipelines?</div>
+                <div class="faq-answer">Yes, we provide comprehensive pipeline integrity management including inspection, maintenance, repair, and rehabilitation services for existing pipeline infrastructure.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">What makes your LNG project management different?</div>
+                <div class="faq-answer">Our LNG project managers bring hands-on operational experience from major Nigerian LNG facilities. We understand the unique challenges of LNG projects in Nigeria and provide practical, results-oriented management.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">How do I request a project quote?</div>
+                <div class="faq-answer">Contact us via phone, email, or WhatsApp with your project details. We'll schedule a consultation to understand your requirements and provide a detailed proposal within 5-7 business days.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Do you work with international oil companies?</div>
+                <div class="faq-answer">Yes, we have experience working with both Nigerian independent operators and international oil companies. We understand the compliance, documentation, and quality standards required by IOCs.</div>
+            </div>
+        </div>
+    </section>
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 Semadyme Classic Enterprises. All rights reserved.</p>
+            <p>&copy; 2024 Crystal Grace Pipeline Services Co. Engineering Excellence in Pipeline Infrastructure.</p>
         </div>
     </footer>
 
+    <a href="https://wa.me/2348063642238" class="whatsapp-float" target="_blank">
+        <span>💬</span>
+    </a>
+
     <script>
+        // Mobile menu toggle
         const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
         const mobileMenu = document.querySelector('.mobile-menu');
 
@@ -713,6 +781,7 @@
                 mobileMenu.classList.toggle('active');
             });
 
+            // Close mobile menu when clicking a link
             const mobileLinks = mobileMenu.querySelectorAll('a');
             mobileLinks.forEach(link => {
                 link.addEventListener('click', () => {

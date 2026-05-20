@@ -1,49 +1,56 @@
 {
-  "businessName": "Semadyme Classic Enterprises",
-  "industry": "Manufacturing",
+  "businessName": "Crystal Grace Pipeline Services Co",
+  "industry": "Oil & Gas Pipeline Services",
   "tone": "professional",
-  "tagline": "Excellence in Manufacturing, Delivered with Precision",
+  "tagline": "Engineering Excellence in Pipeline Infrastructure",
   "sections": [
     {
       "id": "hero",
       "name": "Hero",
-      "copy": "Welcome to Semadyme Classic Enterprises - Your Trusted Manufacturing Partner in Lagos. We deliver quality manufacturing solutions tailored to meet your business needs across Nigeria.",
-      "imagePrompt": "Modern Nigerian manufacturing facility exterior with clean industrial architecture, blue sky, professional workers in safety gear visible through large windows, Lagos cityscape in background, bright natural lighting, photorealistic, high quality",
+      "copy": "Crystal Grace Pipeline Services Co\n\nYour Trusted Partner in Midstream Engineering Excellence\n\nSpecialising in comprehensive pipeline services, LNG project management, and midstream engineering solutions across Nigeria. We deliver safety, reliability, and innovation in every project.\n\nGet a Quote Today",
+      "imagePrompt": "Photorealistic aerial view of modern oil and gas pipeline infrastructure cutting through Nigerian terrain, gleaming silver pipes with blue sky, industrial engineering excellence, professional corporate photography, high detail, golden hour lighting",
       "layout": "centered"
     },
     {
       "id": "about",
       "name": "About Us",
-      "copy": "Semadyme Classic Enterprises is a leading manufacturing company based in Kosofe, Lagos, Nigeria. Operating from our facility at 23 Oyesiku Street, Alapere Ketu, we specialize in delivering top-tier manufacturing solutions that meet international standards while serving the unique needs of Nigerian businesses. Our commitment to quality, reliability, and customer satisfaction has positioned us as a trusted partner for businesses across various sectors. With state-of-the-art equipment and a dedicated team of professionals, we transform raw materials into finished products that exceed expectations.",
-      "imagePrompt": "Interior of modern Nigerian manufacturing plant with organized production lines, quality control stations, Nigerian engineers and workers collaborating, clean industrial environment with natural light, professional photography, documentary style",
+      "copy": "About Crystal Grace Pipeline Services Co\n\nCrystal Grace Pipeline Services Co (also known as Crystal Grace Midstream Engineering Limited) is a leading oil and gas engineering firm based in Lagos, Nigeria. With expertise in LNG project management and midstream engineering, we provide comprehensive pipeline services that meet international safety and quality standards.\n\nOur team of experienced engineers and project managers brings decades of combined expertise in designing, installing, maintaining, and managing pipeline infrastructure across Nigeria's oil and gas sector.\n\nWe are committed to delivering projects on time, within budget, and to the highest standards of safety and environmental responsibility. Our client-focused approach ensures that every project receives the dedicated attention and technical excellence it deserves.\n\nOur Core Values:\n• Safety First - Uncompromising commitment to HSE standards\n• Technical Excellence - Leveraging best-in-class engineering practices\n• Integrity - Transparent, ethical business relationships\n• Innovation - Adopting cutting-edge pipeline technologies\n• Client Satisfaction - Delivering value beyond expectations",
+      "imagePrompt": "Professional Nigerian oil and gas engineering team in safety gear and hard hats inspecting large industrial pipeline, modern facility background, diverse team of engineers with tablets and equipment, corporate documentary style, natural lighting, high resolution",
       "layout": "split"
     },
     {
       "id": "services",
       "name": "Our Services",
-      "copy": "At Semadyme Classic Enterprises, we offer comprehensive manufacturing services designed to support your business growth:\n\n• Custom Manufacturing Solutions - Tailored production processes to meet your specific requirements\n• Quality Control & Assurance - Rigorous testing and inspection protocols ensuring product excellence\n• Product Development - From concept to finished product with expert guidance\n• Supply Chain Management - Efficient sourcing and logistics coordination\n• Consultation Services - Expert advice on manufacturing processes and optimization\n\nWe work with businesses of all sizes, from startups to established enterprises, delivering reliable manufacturing solutions that drive success.",
-      "imagePrompt": "Collage-style image showing diverse manufacturing processes in Nigerian factory: precision machinery in operation, quality inspection with digital tools, packaging line, warehouse with organized inventory, warm industrial lighting, professional documentation photography",
+      "copy": "Comprehensive Pipeline & Midstream Solutions\n\nLNG Project Management\nEnd-to-end management of liquefied natural gas projects from feasibility studies through commissioning. Our experienced LNG project managers ensure seamless execution, regulatory compliance, and optimal performance.\n\nPipeline Design & Engineering\nComplete pipeline engineering services including route selection, hydraulic analysis, material specification, and detailed design documentation that meets Nigerian and international standards.\n\nPipeline Installation & Construction\nExpert installation services for onshore and offshore pipelines, from trenching and welding to coating and commissioning, with full compliance to DPR and industry regulations.\n\nPipeline Integrity Management\nComprehensive integrity assessment programs including inspection, corrosion monitoring, risk assessment, and maintenance planning to extend pipeline life and ensure safe operations.\n\nMidstream Engineering Solutions\nComplete midstream infrastructure development including gas processing facilities, compression stations, metering systems, and flow assurance engineering.\n\nHSE Consulting & Compliance\nHealth, Safety, and Environmental consulting services ensuring your pipeline operations meet Nigerian Content Development requirements and international best practices.\n\nProject Commissioning & Start-Up\nSystematic commissioning procedures, performance testing, and operational readiness services to ensure safe and efficient pipeline system start-up.",
+      "imagePrompt": "Split screen collage showing various oil and gas operations: pipeline welding with sparks, LNG facility at dusk, engineers reviewing blueprints, pipeline inspection equipment, modern control room, Nigerian industrial landscape, professional documentary photography, vibrant and detailed",
       "layout": "grid"
     },
     {
-      "id": "why-choose-us",
-      "name": "Why Choose Us",
-      "copy": "Semadyme Classic Enterprises stands out in the Nigerian manufacturing landscape through our unwavering commitment to excellence. Our facility in Alapere Ketu is equipped with modern machinery and operated by skilled professionals who understand both local and international quality standards. We pride ourselves on timely delivery, competitive pricing, and exceptional customer service. Our location in Lagos provides strategic access to major distribution channels, ensuring your products reach their destination efficiently. When you partner with us, you're choosing a manufacturing partner dedicated to your success.",
-      "imagePrompt": "Professional handshake between Nigerian business executives in modern manufacturing facility office, certificates and quality awards visible on wall, confident expressions, bright office lighting, corporate photography style",
+      "id": "team",
+      "name": "Our Expertise",
+      "copy": "Led by Experienced LNG Project Managers\n\nOur leadership brings extensive experience in managing complex LNG and pipeline projects across Nigeria's oil and gas sector. With proven track records in project delivery, regulatory navigation, and stakeholder management, we ensure your projects are in capable hands.\n\nOur team includes:\n• Certified LNG Project Managers\n• Pipeline Design Engineers\n• Construction Supervisors\n• HSE Specialists\n• Quality Control Inspectors\n• Welding Coordinators\n• Integrity Assessment Engineers\n\nEvery team member holds relevant professional certifications and undergoes continuous training to stay current with evolving industry standards and technologies.\n\nWe partner with leading international engineering firms and equipment suppliers to deliver world-class solutions tailored to Nigeria's unique operating environment.",
+      "imagePrompt": "Confident Nigerian project manager in professional attire and hard hat standing in front of massive LNG facility or pipeline installation, holding tablet, blue sky background, executive portrait style, sharp focus, professional business photography",
       "layout": "centered"
     },
     {
       "id": "contact",
       "name": "Contact Us",
-      "copy": "Ready to discuss your manufacturing needs? We're here to help.\n\nVisit our facility at 23 Oyesiku Street, Alapere Ketu, Kosofe, Lagos, or reach out to us today. Our team is ready to provide you with detailed information about our services and how we can support your business objectives.\n\nLet's build something great together.",
-      "imagePrompt": "Modern Nigerian office reception area with company branding, comfortable seating area, professional receptionist, Lagos city visible through windows, welcoming atmosphere, natural lighting, architectural photography",
+      "copy": "Get in Touch\n\nReady to discuss your pipeline or LNG project? Our team is available to provide consultation, project quotes, and technical support.\n\nCrystal Grace Pipeline Services Co\n(Crystal Grace Midstream Engineering Limited)\n\nOffice Address:\n23 Oyesiku Street\nAlapere, Ketu\nKosofe, Lagos\nNigeria\n\nPhone: +234 806 364 2238\nEmail: info@crystalgrace.org\nWebsite: www.crystalgrace.org\n\nBusiness Hours:\nMonday - Friday: 8:00 AM - 5:00 PM\nSaturday: 9:00 AM - 2:00 PM\nSunday: Closed\n\nFor urgent project enquiries, please contact us via WhatsApp for fastest response.\n\nRequest a Quote\nWhether you need pipeline installation, LNG project management, or integrity assessment services, we're here to help. Contact us today to discuss how we can support your next project.",
+      "imagePrompt": "Modern Nigerian office building exterior with professional signage, clean corporate architecture, Lagos urban setting, blue sky, well-maintained surroundings, welcoming entrance, professional architectural photography, daytime, sharp details",
+      "layout": "split"
+    },
+    {
+      "id": "faq",
+      "name": "Frequently Asked Questions",
+      "copy": "Common Questions About Our Services\n\nWhat regions of Nigeria do you serve?\nWe provide pipeline and midstream engineering services across Nigeria, with particular expertise in Lagos, Rivers, Delta, Bayelsa, and Akwa Ibom states. We can mobilise teams nationwide for projects of any scale.\n\nAre you compliant with Nigerian Content Development requirements?\nYes, Crystal Grace Pipeline Services Co is fully compliant with all Nigerian Content Development and Monitoring Board (NCDMB) requirements. We prioritise local content in our operations and maintain all necessary registrations and certifications.\n\nWhat standards do your pipeline services meet?\nOur engineering and construction services comply with international standards including API, ASME, ISO, and DPR regulations. We maintain strict quality control and HSE protocols on every project.\n\nHow long does a typical pipeline project take?\nProject duration varies based on scope, terrain, pipeline diameter, and length. A typical small to medium onshore pipeline project ranges from 3-8 months. We provide detailed timelines during project planning.\n\nDo you offer maintenance services for existing pipelines?\nYes, we provide comprehensive pipeline integrity management including inspection, maintenance, repair, and rehabilitation services for existing pipeline infrastructure.\n\nWhat makes your LNG project management different?\nOur LNG project managers bring hands-on operational experience from major Nigerian LNG facilities. We understand the unique challenges of LNG projects in Nigeria and provide practical, results-oriented management.\n\nHow do I request a project quote?\nContact us via phone, email, or WhatsApp with your project details. We'll schedule a consultation to understand your requirements and provide a detailed proposal within 5-7 business days.\n\nDo you work with international oil companies?\nYes, we have experience working with both Nigerian independent operators and international oil companies. We understand the compliance, documentation, and quality standards required by IOCs.",
+      "imagePrompt": "Clean modern office consultation scene, Nigerian engineers and client reviewing large pipeline drawings on table, laptops and safety helmets visible, natural office lighting, professional business environment, collaborative atmosphere, corporate photography",
       "layout": "default"
     }
   ],
   "contact": {
     "phone": "+234 806 364 2238",
-    "email": "info@semadymeclassic.com",
-    "address": "23 Oyesiku Street, Alapere Ketu, Kosofe, Lagos, Nigeria",
+    "email": "info@crystalgrace.org",
+    "address": "23 Oyesiku Street, Alapere, Ketu, Kosofe, Lagos, Nigeria",
     "whatsapp": "https://wa.me/2348063642238"
   }
 }
